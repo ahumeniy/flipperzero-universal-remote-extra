@@ -1,0 +1,17 @@
+App(
+    appid="infrared_extra",
+    name="Universal Remotes",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="infrared_app",
+    requires=[
+        "gui",
+        "dialogs",
+    ],
+    icon="A_Infrared_14",
+    stack_size=3 * 1024,
+    order=40,
+    fap_icon="infrared_extra_icon.png",
+    fap_libs=["assets"],
+    fap_icon_assets="assets",
+    fap_category="Tools"
+)
